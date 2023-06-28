@@ -1,29 +1,15 @@
-#include <stdio.h>
-
-/*
-*main-checks the code
-*
-*Return: Always 0.
-*/
-void swap_int(int *a, int *b);
-int main(void)
-{
-    int a;
-    int b;
-    a=98;
-    b=42;
-    printf("The values of a is :%d\n", a);
-    printf("The values of b is :%d\n", b);
-    swap_int(&a, &b);
-    printf("The values of a is :%d\n", a);
-    printf("The values of b is :%d\n", b);
-    return (0);
-}
-/*
-*swap_int- swaps *a to *b and *b to *a
-*c-temporary variable to hold *a
-*takes the pointer to an int (*n) and updates it to 98
-*/
+/**
+ * swap_int - Swaps the values of two integers.
+ * @a: Pointer to the first integer.
+ * @b: Pointer to the second integer.
+ *
+ * Description: This function takes two integer pointers, @a and @b,
+ * and swaps the values of the integers they point to. It achieves this
+ * by using a temporary variable @c to hold the value of @a, then
+ * assigns the value of @b to @a, and finally assigns the value of @c
+ * (which originally held the value of @a) to @b. As a result, the values
+ * of @a and @b are effectively swapped.
+ */
 void swap_int(int *a, int *b)
 {
     int c;
