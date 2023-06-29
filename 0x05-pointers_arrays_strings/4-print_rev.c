@@ -13,7 +13,7 @@ while (s[length] != '\0')
 length++;
 }
 i=length;
-if (s != '\0')
+if (*s != '\0')
 {
 while (i >= 0 &&)
 {
