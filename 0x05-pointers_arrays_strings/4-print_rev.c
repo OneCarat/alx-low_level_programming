@@ -15,7 +15,7 @@ length++;
 i=length;
 if (*s != '\0')
 {
-while (i >= 0 &&)
+while (i >= 0)
 {
 putchar (s[i]);
 i--;
