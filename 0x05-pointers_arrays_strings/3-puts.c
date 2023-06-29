@@ -4,8 +4,8 @@
  * @str: pointer for string
  * Return : 0
  */
-putchar();
 void _puts(char *str)
+putchar();
 {
 while (*str != '\0')
 {
