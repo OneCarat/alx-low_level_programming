@@ -12,6 +12,7 @@ while (s[length] != '\0')
 {
 length++;
 }
+i=length;
 while (i > 0)
 {
 putchar (s[i]);
