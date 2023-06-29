@@ -13,10 +13,13 @@ while (s[length] != '\0')
 length++;
 }
 i=length;
-while (i >= 0 && s!='\0')
+if (s != '\0')
+{
+while (i >= 0 &&)
 {
 putchar (s[i]);
 i--;
+}
 }
 putchar('\n'); 
 }
