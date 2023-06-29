@@ -9,8 +9,7 @@ int _strlen(char *s);
 void _puts(char *str);
 void print_rev(char *s);
 void print_rev(char *s);
-int putchar ();
-char putchar ();
+void putchar ();
 
 /* ... add prototypes for your other functions ... */
 
