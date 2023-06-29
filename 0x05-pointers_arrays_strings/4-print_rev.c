@@ -11,10 +11,11 @@ while (s[length] != '\0')
 {
 length++;
 }
-int i;
-for (i = length; i > 0; i--)
+int i=length;
+while (i > 0)
 {
 putchar (s[i]);
+i--;
 }
 putchar("\n"); 
 }
