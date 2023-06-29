@@ -5,11 +5,11 @@
  * Return : 0
  */
 void _puts(char *str)
-putchar();
+int putchar();
 {
 while (*str != '\0')
 {
-putchar(*str);
+int putchar(*str);
 *str++;
 }
 putchar('\n');
